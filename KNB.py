@@ -8,5 +8,14 @@ elif users == "ножницы":
 elif users == "бумага":
     users == 3
 else:
-    print("неверный ввод")
+    print("Неверный ввод")
 
+if (comp == 1 and users == 1) or (comp == 2 and users == 2) or (comp == 3 and users == 3):
+    print(comp, 'vs', users)
+    print('Ничья')
+elif (comp == 1 and users == 2) or (comp == 2 and users == 3) or (comp == 3 and users == 1):
+    print(comp, 'vs', users)
+    print('Вы проиграли :(')
+else:
+    print(comp, 'vs', users)
+    print('Вы выиграли!')
