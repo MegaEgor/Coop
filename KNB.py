@@ -15,6 +15,7 @@ while again == 1:
         users = 3
     else:
         print("Неверный ввод")
+        continue
 
     if (comp == 1 and users == 1) or (comp == 2 and users == 2) or (comp == 3 and users == 3):
         result = 'Ничья'
